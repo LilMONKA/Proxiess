@@ -1,0 +1,13 @@
+{
+  "proxies": [
+    {"host": "proxy1.example.com", "port": 8080, "protocol": "http"},
+    {"host": "proxy2.example.com", "port": 8080, "protocol": "http"},
+    {"host": "proxy3.example.com", "port": 3128, "protocol": "http"},
+    {"host": "192.168.1.100", "port": 8080, "protocol": "http"},
+    {"host": "192.168.1.101", "port": 8080, "protocol": "http"},
+    {"host": "secure-proxy1.test.com", "port": 443, "protocol": "https"},
+    {"host": "secure-proxy2.test.com", "port": 443, "protocol": "https"},
+    {"host": "socks-proxy1.test.com", "port": 1080, "protocol": "socks5"},
+    {"host": "socks-proxy2.test.com", "port": 1080, "protocol": "socks5"}
+  ]
+}
