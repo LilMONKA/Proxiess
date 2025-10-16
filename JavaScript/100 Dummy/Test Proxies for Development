@@ -1,0 +1,131 @@
+// JavaScript Array of Dummy Proxies
+const dummyProxies = [
+  // HTTP Proxies
+  "http://proxy1.example.com:8080",
+  "http://proxy2.example.com:8080",
+  "http://proxy3.example.com:3128",
+  "http://192.168.1.100:8080",
+  "http://192.168.1.101:8080",
+  "http://192.168.1.102:8080",
+  "http://10.0.0.50:3128",
+  "http://10.0.0.51:3128",
+  "http://10.0.0.52:3128",
+  "http://172.16.0.10:8888",
+  
+  // HTTPS Proxies
+  "https://secure-proxy1.test.com:443",
+  "https://secure-proxy2.test.com:443",
+  "https://secure-proxy3.test.com:8443",
+  "https://192.168.2.100:443",
+  "https://192.168.2.101:443",
+  
+  // SOCKS5 Proxies
+  "socks5://socks-proxy1.test.com:1080",
+  "socks5://socks-proxy2.test.com:1080",
+  "socks5://192.168.3.100:1080",
+  "socks5://192.168.3.101:1080",
+  "socks5://10.1.1.50:1080",
+  
+  // More HTTP Proxies with Ports
+  "http://test-proxy-01.local:8080",
+  "http://test-proxy-02.local:8080",
+  "http://test-proxy-03.local:8080",
+  "http://test-proxy-04.local:8080",
+  "http://test-proxy-05.local:8080",
+  "http://test-proxy-06.local:8080",
+  "http://test-proxy-07.local:8080",
+  "http://test-proxy-08.local:8080",
+  "http://test-proxy-09.local:8080",
+  "http://test-proxy-10.local:8080",
+  "http://test-proxy-11.local:8080",
+  "http://test-proxy-12.local:8080",
+  "http://test-proxy-13.local:8080",
+  "http://test-proxy-14.local:8080",
+  "http://test-proxy-15.local:8080",
+  "http://test-proxy-16.local:8080",
+  "http://test-proxy-17.local:8080",
+  "http://test-proxy-18.local:8080",
+  "http://test-proxy-19.local:8080",
+  "http://test-proxy-20.local:8080",
+  
+  // Regional Test Proxies
+  "http://us-proxy-east-1.test.com:8080",
+  "http://us-proxy-west-1.test.com:8080",
+  "http://eu-proxy-central-1.test.com:8080",
+  "http://eu-proxy-west-1.test.com:8080",
+  "http://asia-proxy-southeast-1.test.com:8080",
+  "http://asia-proxy-northeast-1.test.com:8080",
+  
+  // IP-based Test Proxies
+  "http://203.0.113.1:8080",
+  "http://203.0.113.2:8080",
+  "http://203.0.113.3:8080",
+  "http://203.0.113.4:8080",
+  "http://203.0.113.5:8080",
+  "http://198.51.100.1:8080",
+  "http://198.51.100.2:8080",
+  "http://198.51.100.3:8080",
+  "http://198.51.100.4:8080",
+  "http://198.51.100.5:8080",
+  
+  // Different Port Variations
+  "http://proxy-server-a.test:3128",
+  "http://proxy-server-b.test:3128",
+  "http://proxy-server-c.test:3128",
+  "http://proxy-server-d.test:8888",
+  "http://proxy-server-e.test:8888",
+  "http://proxy-server-f.test:9090",
+  "http://proxy-server-g.test:9090",
+  "http://proxy-server-h.test:80",
+  "http://proxy-server-i.test:80",
+  "http://proxy-server-j.test:8000",
+  
+  // Localhost Test Proxies
+  "http://127.0.0.1:8080",
+  "http://127.0.0.1:3128",
+  "http://127.0.0.1:8888",
+  "http://localhost:8080",
+  "http://localhost:3128",
+  
+  // IPv6 Test Proxies
+  "http://[2001:db8::1]:8080",
+  "http://[2001:db8::2]:8080",
+  "http://[2001:db8::3]:8080",
+  
+  // More Dummy Endpoints
+  "http://demo-proxy-01.example.org:8080",
+  "http://demo-proxy-02.example.org:8080",
+  "http://demo-proxy-03.example.org:8080",
+  "http://demo-proxy-04.example.org:8080",
+  "http://demo-proxy-05.example.org:8080",
+  "http://demo-proxy-06.example.org:8080",
+  "http://demo-proxy-07.example.org:8080",
+  "http://demo-proxy-08.example.org:8080",
+  "http://demo-proxy-09.example.org:8080",
+  "http://demo-proxy-10.example.org:8080",
+  
+  // Corporate Test Proxies
+  "http://corp-proxy-1.internal:8080",
+  "http://corp-proxy-2.internal:8080",
+  "http://corp-proxy-3.internal:8080",
+  "http://corp-proxy-4.internal:8080",
+  "http://corp-proxy-5.internal:8080",
+  
+  // Development Environment Proxies
+  "http://dev-proxy-1.local:8080",
+  "http://dev-proxy-2.local:8080",
+  "http://dev-proxy-3.local:8080",
+  "http://staging-proxy-1.local:8080",
+  "http://staging-proxy-2.local:8080",
+  "http://testing-proxy-1.local:8080",
+  "http://testing-proxy-2.local:8080",
+  
+  // Additional Test Proxies
+  "http://test-node-01.proxy.test:8080",
+  "http://test-node-02.proxy.test:8080",
+  "http://test-node-03.proxy.test:8080",
+  "http://test-node-04.proxy.test:8080",
+  "http://test-node-05.proxy.test:8080"
+];
+
+console.log(`Total dummy proxies: ${dummyProxies.length}`);
