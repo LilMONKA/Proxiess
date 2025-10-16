@@ -1,0 +1,13 @@
+dummy_proxies = [
+    {"http": "http://proxy1.example.com:8080"},
+    {"http": "http://proxy2.example.com:8080"},
+    {"http": "http://proxy3.example.com:3128"},
+    {"https": "https://secure-proxy1.test.com:443"},
+    {"https": "https://secure-proxy2.test.com:443"},
+]
+
+# For use with requests library
+import requests
+
+proxy = dummy_proxies[0]
+# response = requests.get('http://example.com', proxies=proxy)
